@@ -30,7 +30,7 @@ public class Combo implements OrderItem{
     public String toString() {
         String msg = getItemName();
         double totalPrice = getPrice();
-        return "Combo of:\n" + msg + " costs $"+String.format("%.2f",totalPrice);
+        return "Combo of:\n" + msg + " costs $"+String.format("%.2f",totalPrice)+'\n';
 
     }
 }

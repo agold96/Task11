@@ -20,7 +20,7 @@ public class Product implements OrderItem{
 
     @Override
     public String toString() {
-        return name + " costs: $"+Price;
+        return name + " costs: $"+Price+'\n';
     }
 
 }

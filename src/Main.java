@@ -9,5 +9,14 @@ public class Main {
         c.Additem(y);
         c.Additem(z);
         System.out.println(c.toString());
+
+        OrderModel m = new OrderModel();
+        m.Additem(x);
+        m.Additem(y);
+        System.out.println(m.toString());
+        m.Clear();
+        m.Additem(z);
+        m.Additem(c);
+        System.out.println(m.toString());
     }
 }
