@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68b6111c-393e-4dff-94f0-18b3afab2dd8" name="Changes" comment="task 11 done&#10;Worked with Chris">
+    <list default="true" id="68b6111c-393e-4dff-94f0-18b3afab2dd8" name="Changes" comment="other improvements made">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MyOrderView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOrderView.java" afterDir="false" />
     </list>
@@ -73,13 +73,29 @@
       <option name="project" value="LOCAL" />
       <updated>1681328167563</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="task 11 done and made the GUI look nicer">
+      <created>1681329277873</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681329277873</updated>
+    </task>
+    <task id="LOCAL-00005" summary="other improvements made">
+      <created>1681329468367</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681329468367</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="part 1 done" />
     <MESSAGE value="part 2 done" />
     <MESSAGE value="task 11 done&#10;Worked with Chris" />
-    <option name="LAST_COMMIT_MESSAGE" value="task 11 done&#10;Worked with Chris" />
+    <MESSAGE value="task 11 done and made the GUI look nicer" />
+    <MESSAGE value="other improvements made" />
+    <option name="LAST_COMMIT_MESSAGE" value="other improvements made" />
   </component>
 </project>

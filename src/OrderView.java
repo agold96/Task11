@@ -16,7 +16,7 @@ public abstract class OrderView extends JPanel{
         orderText.setText(s);
     }
     public void setTotal(double p){
-        OrderTotal.setText(String.valueOf(p));
+        OrderTotal.setText("$"+String.valueOf(p));
     }
 
 

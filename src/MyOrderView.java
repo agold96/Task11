@@ -15,14 +15,16 @@ public class MyOrderView extends OrderView{
         OrderController controller = new OrderController(this, new OrderModel());
         AddController(controller);
         setLayout(new BoxLayout(this,BoxLayout.Y_AXIS));
-        setPreferredSize(new Dimension(900,700));
+        setPreferredSize(new Dimension(900,900));
         setBackground(new Color(75,150,222));
         JPanel buttons= new JPanel();
         buttons.setLayout(new FlowLayout());
         buttons.setPreferredSize(new Dimension(900,150));
         orderText = new JTextArea();
+        orderText.setFont(new Font("SanSarif",Font.PLAIN,15));
         OrderTotal = new JLabel();
         OrderTotal.setPreferredSize(new Dimension(900,50));
+        OrderTotal.setFont(new Font("SanSarif",Font.CENTER_BASELINE,35));
         add(orderText);
         add(OrderTotal);
         JButton hamburger = new JButton("Hamburger");
