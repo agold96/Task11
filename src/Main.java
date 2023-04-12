@@ -17,6 +17,7 @@ public class Main {
         m.Clear();
         m.Additem(z);
         m.Additem(c);
+        m.Additem(x);
         System.out.println(m.toString());
     }
 }

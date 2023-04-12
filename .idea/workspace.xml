@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68b6111c-393e-4dff-94f0-18b3afab2dd8" name="Changes" comment="part 1 done">
-      <change afterPath="$PROJECT_DIR$/src/OrderModel.java" afterDir="false" />
+    <list default="true" id="68b6111c-393e-4dff-94f0-18b3afab2dd8" name="Changes" comment="part 2 done">
+      <change afterPath="$PROJECT_DIR$/src/MyOrderView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OrderView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Combo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Combo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OrderModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OrderModel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +45,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/a96go/IdeaProjects/Task11"
+    "last_opened_file_path": "C:/Users/a96go/IdeaProjects/calculator"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -60,11 +64,19 @@
       <option name="project" value="LOCAL" />
       <updated>1680893417023</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="part 2 done">
+      <created>1681150773837</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681150773837</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="part 1 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="part 1 done" />
+    <MESSAGE value="part 2 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="part 2 done" />
   </component>
 </project>

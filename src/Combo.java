@@ -10,10 +10,11 @@ public class Combo implements OrderItem{
 
     @Override
     public String getItemName() {
-        String msg = "";
+        String msg = "Combo of:\n";
         for (OrderItem oi : items) {
             msg += '\t' + oi.getItemName() + "\n";
         }
+        msg = msg.trim();
         return msg;
     }
 
@@ -30,7 +31,7 @@ public class Combo implements OrderItem{
     public String toString() {
         String msg = getItemName();
         double totalPrice = getPrice();
-        return "Combo of:\n" + msg + " costs $"+String.format("%.2f",totalPrice)+'\n';
+        return '\n' + msg + " costs $"+String.format("%.2f",totalPrice);
 
     }
 }

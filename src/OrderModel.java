@@ -1,24 +1,27 @@
 import java.util.ArrayList;
 
 public class OrderModel implements OrderItem{
-    public ArrayList<OrderItem> order = new ArrayList<OrderItem>();
 
-    public String msg = "";
 
-    public double totalPrice = 0;
+    ArrayList<OrderItem> order;
+
+
+
+    public OrderModel() {
+        order = new ArrayList<OrderItem>();
+    }
 
     public void Additem(OrderItem oi) {
         order.add(oi);
     }
 
     public void Clear(){
-        msg = "";
-        totalPrice = 0;
         order.clear();
     }
 
     @Override
     public String getItemName() {
+        String msg = "";
         for (OrderItem oi : order) {
             msg += oi.getItemName() + "\n";
         }
@@ -27,6 +30,7 @@ public class OrderModel implements OrderItem{
 
     @Override
     public double getPrice() {
+        double totalPrice = 0;
         for(OrderItem oi: order){
             totalPrice+= oi.getPrice();
         }
@@ -37,7 +41,7 @@ public class OrderModel implements OrderItem{
     public String toString() {
         String msg = getItemName();
         double totalPrice = getPrice();
-        return "Your order:\n" + msg + " costs $"+String.format("%.2f",totalPrice)+'\n';
+        return "Your order:\n" + msg + "costs $"+String.format("%.2f",totalPrice)+'\n';
 
     }
 }
