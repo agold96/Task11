@@ -86,7 +86,7 @@ public class MyOrderView extends OrderView{
             public void actionPerformed(ActionEvent e) {
                 oc.additem(new Product("Cleared",0));
                 setItems(controller.om.getItemName());
-                setTotal(controller.om.getPrice());
+                setTotal(controller.om.getPrice()-controller.om.getPrice());
                 controller.Clear();
 
             }
