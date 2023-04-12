@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68b6111c-393e-4dff-94f0-18b3afab2dd8" name="Changes" comment="part 2 done">
-      <change afterPath="$PROJECT_DIR$/src/MyOrderView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OrderView.java" afterDir="false" />
+    <list default="true" id="68b6111c-393e-4dff-94f0-18b3afab2dd8" name="Changes" comment="task 11 done&#10;Worked with Chris">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Combo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Combo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OrderModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OrderModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyOrderView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyOrderView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,12 +66,20 @@
       <option name="project" value="LOCAL" />
       <updated>1681150773837</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="task 11 done&#10;Worked with Chris">
+      <created>1681328167563</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681328167563</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="part 1 done" />
     <MESSAGE value="part 2 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="part 2 done" />
+    <MESSAGE value="task 11 done&#10;Worked with Chris" />
+    <option name="LAST_COMMIT_MESSAGE" value="task 11 done&#10;Worked with Chris" />
   </component>
 </project>

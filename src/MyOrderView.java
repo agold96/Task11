@@ -15,34 +15,39 @@ public class MyOrderView extends OrderView{
         OrderController controller = new OrderController(this, new OrderModel());
         AddController(controller);
         setLayout(new BoxLayout(this,BoxLayout.Y_AXIS));
-        setPreferredSize(new Dimension(400,800));
+        setPreferredSize(new Dimension(900,700));
         setBackground(new Color(75,150,222));
+        JPanel buttons= new JPanel();
+        buttons.setLayout(new FlowLayout());
+        buttons.setPreferredSize(new Dimension(900,150));
         orderText = new JTextArea();
         OrderTotal = new JLabel();
+        OrderTotal.setPreferredSize(new Dimension(900,50));
         add(orderText);
         add(OrderTotal);
         JButton hamburger = new JButton("Hamburger");
-        hamburger.setPreferredSize(new Dimension(50,60));
+        hamburger.setPreferredSize(new Dimension(120,100));
         JButton ChickenSandwich = new JButton("Chicken Sandwich");
-        ChickenSandwich.setPreferredSize(new Dimension(50,60));
+        ChickenSandwich.setPreferredSize(new Dimension(120,100));
         JButton Fries = new JButton("Fries");
-        Fries.setPreferredSize(new Dimension(50,60));
+        Fries.setPreferredSize(new Dimension(120,100));
         JButton Pop = new JButton("Pop");
-        Pop.setPreferredSize(new Dimension(50,60));
+        Pop.setPreferredSize(new Dimension(120,100));
         JButton c1= new JButton("Combo 1");
-        c1.setPreferredSize(new Dimension(50,60));
+        c1.setPreferredSize(new Dimension(120,100));
         JButton c2 = new JButton("Combo 2");
-        c2.setPreferredSize(new Dimension(50,60));
+        c2.setPreferredSize(new Dimension(120,100));
         JButton clear = new JButton("Clear");
-        clear.setPreferredSize(new Dimension(50,60));
+        clear.setPreferredSize(new Dimension(120,100));
 
-        add(hamburger);
-        add(ChickenSandwich);
-        add(Fries);
-        add(Pop);
-        add(c1);
-        add(c2);
-        add(clear);
+        buttons.add(hamburger);
+        buttons.add(ChickenSandwich);
+        buttons.add(Fries);
+        buttons.add(Pop);
+        buttons.add(c1);
+        buttons.add(c2);
+        buttons.add(clear);
+        add(buttons);
 
         hamburger.addActionListener(new ActionListener() {
             @Override
@@ -79,7 +84,11 @@ public class MyOrderView extends OrderView{
         clear.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                controller.om.Clear();
+                oc.additem(new Product("Cleared",0));
+                setItems(controller.om.getItemName());
+                setTotal(controller.om.getPrice());
+                controller.Clear();
+
             }
         });
 
